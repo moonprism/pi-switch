@@ -1,8 +1,6 @@
-## raspberry pi switch app
+## pi-switch
 
-使用 GPIO pin14 作为 IN 端实现的一个 web 开关程序。
-
-  [blog](https://www.kicoe.com/article/id/27)
+使用 GPIO pin14 作为 IN 端实现的一个 web 开关程序，[blog](https://www.kicoe.com/article/id/27)
 
 ## usage
 
@@ -13,11 +11,9 @@ chmod +x main
 ./main
 ```
 
-浏览器访问 http://respi-ip:1323/
-
 ## dev (win~)
 
-配置树莓派地址：
+配置：
 
 ```
 | - ftp.txt
@@ -25,14 +21,14 @@ chmod +x main
 |  | - .env.development
 ```
 
-树莓派建立对应目录
+在树莓派建立对应目录：
 
 ```
 sudo mkdir -p /data/switch/js
 chown pi -R /data
 ```
 
-build and deploy:
+Win下运行:
 
 ```
 ./build
