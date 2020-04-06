@@ -1,0 +1,11 @@
+open 192.168.0.101
+pi
+raspberry
+cd /data/switch
+put ./main
+put ./web/dist/index.html
+put ./web/dist/logo.png
+cd ./js
+put ./web/dist/js/app.js
+put ./web/dist/js/chunk-vendors.js
+quit
